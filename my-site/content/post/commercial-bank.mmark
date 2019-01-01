@@ -1,0 +1,321 @@
+---
+title: "Commercial Bank Competition and Risk
+--Empirical study on 20 non-OECD countries"
+thumbnailImagePosition: left
+thumbnailImage: images/commercial.jpeg
+metaAlignment: center
+coverMeta: out
+date: 2018-11-13
+categories:
+- tranquilpeak
+- features
+tags:
+- cover image
+---
+It is a hotspot for economists to discuss and reflect the relationship between risks and competition. Till now there is no consensus among researchers. With the unbalanced panel data of all commercial banks in 20 non-OECD countries over 2000-2014, the article tried to figure out the relationship between competition and risk. Time variant Competition was measured by the Panzar-Rosse H statistics and risk was measured by rolling Z-scores. In the final regression, other macroeconomic index and bank specific factors were considered. Results found that banks` risks level would increase with the increase of market competition while a relatively larger bank would be less impacted by competition.
+
+<!--more-->
+#  Commercial Bank Competition and Risk: Empirical study on 20 non-OECD countries
+
+# Abstract
+It is a hotspot for economists to discuss and reflect the relationship between risks and competition. Till now there is no consensus among researchers. With the unbalanced panel data of all commercial banks in 20 non-OECD countries over 2000-2014, the article tried to figure out the relationship between competition and risk. Time variant Competition was measured by the Panzar-Rosse H statistics and risk was measured by rolling Z-scores. In the final regression, other macroeconomic index and bank specific factors were considered. Results found that banks` risks level would increase with the increase of market competition while a relatively larger bank would be less impacted by competition.
+
+**Key words**: Banks Risk; Bank Competition; Panzar-Rosse H statistics; Z-scores
+
+
+
+
+# 1. Introduction
+After the subprime crisis of banking system in 2007, the risk management problem attracts more attention from both bankers and policy makers worldwide. And for everyone, banks are no longer only financial institutes, but also an intermediate where people can acquire some information about the macro economy.
+
+A chain could be used to explain the relationship among individuals, commercial banks and regulators. Individuals put their extra money in banks to save and invest, in order to get the same time value of money or even higher when withdrawn. Meanwhile, bankers act such an important role in the reallocation of the scarce financial sources in the lending and investing process, creating more value and providing more working opportunities to individuals. Policy-makers levy taxes according to law, regulate and supervise the behavior of both individuals and banks. Especially in the developing countries, where the awareness of financing just arises, it is easy to find that individuals are more involved in the banking industry ever.
+
+Sometimes the scale of banks becomes too huge, and influence countries from all aspects. The argument of “too big to fail” believes that policy makers would not let big banks go bankrupt even these banks are losing value and hurting the interests of bank creditors and depositors. Conversely, regulators would offer huge amount of subsidy, which are also collect from tax payers, the individuals. In particular after the failure of Lehman Brothers in 2008, it seems only more evident that no big bank is allowed to collapse.
+
+Critics go further on this topic. The protection from government would not only create an unfair competition environment to small or medium-sized banks, but also increase the vulnerability of domestic banking system. And it could result in moral hazard in that big banks would prefer higher risky projects for higher profits with the protection from regulators. As to tax payers, they bear the biggest part of loss when banks fail.
+
+After the crises, policy makers have struggled to cut subsidy and tried to find way out. The first measure is to force the biggest financial companies to have more capital to absorb loses. The second measure is to make it easier to close down a big bank. Duchin & Sosyura (2010) [1] find that banks would take more risks when the central banks increase the equity ratio to maintain profitability. Therefore, the effect of those measures could not be foreseen till now.
+
+Then what factor could have an influence on the risk of banks? Intuitively, the answer is competition. When there is less competition, less enterprises would fail. For regulators, they should strictly control the number of banks. Nevertheless, the competition would optimize the industry organization and structure. Same as the theory of survival of the fittest, those banks who could survive after the fierce competition must have more reasonable assets structure and investment portfolio. For regulators, they should reduce the threshold and make it easier for more productive and creative banks to entry. However, the effect of competition on bank risk is still ambiguous. On one side, competition would increase bank risk, but on the other side it reduces risk. So theoretically whether bank risk increases or decreases with competition cannot be directly answered, and leaves the question an empirical one.
+
+Hence, in order to keep watch on financial risk, it is still an essential topic faced by regulators to increase or decrease the competition in the banking industry. This article tries to address the empirical relationship of competition and risk in banking industry with the panel data of 20 non-OECD countries` commercial banks over 2000-2014 and to propose regulatory suggestions for those governors.
+
+The rest of the paper is as follows. Section 2 introduces related literature, followed by the introduction and collection of the empirical data. Section 4 illustrates the thought of model construction. In the final part, we would interpret the empirical results further.
+
+
+# 2.  Literature Review
+The literature on the relationship between competition and risk of commercial banks may be divided into two main streams.
+
+The first stream is the “competition stability” hypothesis. Competition may increase financial stability due to several reasons. First, competition may accelerate the optimizing process of the whole economy and thus avoid defaults. Both Jayaratne and Strahan (1998) [2] and Beck et al (2006) [3] show that the improvement of banking competition would decrease risks. Second, introduced by Boyd and De Nicoló (2005) [4], it is worth discussing that less competition among banks could then lead to higher interest rates charged on business loans, which could raise the credit risk of borrowers due to the moral hazard issues. Borrowers` default risk could result in more bad loans and undermine bank stability by a larger scale. The authors argue that the so-called loan market channel” could eliminate the trade-off between competition and financial stability implied by the “deposit channel” implied by the franchise value paradigm. They also argue that the increasing competition across both the loan and deposit markets could lower loan rates, decrease borrower credit risk, and thus enhance financial stability.
+
+The second stream is the “competition vulnerability” hypothesis. Chan et al. (1986) [5] find that increased competition reduced the producer surplus that banks could earn by identifying high-quality borrowers. The reduction in profits erodes the enthusiasm to screen potential borrowers and, thus, overall portfolio credit risk increases. In a context of asymmetric information, Marquez (2002) [6] shows that a relatively higher number of banks in a market disperses the borrower-specific information and results in both higher funding costs and greater access to credit for low-quality borrowers. Yeyati and Micco (2003) [7] also proved that more competition (i.e., lower bank margins) leads to more risk taking in the investment.
+
+Many works try to measure competition by using the structure-conduct-performance (SCP) paradigm and treat the concentration as a proxy of and competition. In China, Chen and Li (2007) [8] use the concentration and find it was negatively correlated with the risk level. Zhou and Ouyang (2011) [9], Yang and Zhong (2013) [10] investigate on the China banking system but show opposite results. Therefore there is still no consensus on this topic.
+
+This article contributes to the literature by several aspects. Firstly, we use the Panzar-Rosse H statistic as the indicator of competition. Meanwhile during the sampled 15 years from 2000 to 2014, time variant is taken into consideration  to construct time-varying Panzar-Rosse H statistics. Secondly, this article focuses on emerging and developing countries since these countries are witnessing significant financial liberalization. We use 20 non-OECD countries in our sample. The finding in this paper thus may provide important policy suggestions for the developing countries that tend to maximize the benefits from financial liberalization.
+
+# 3.  Bank data sample
+
+This section describes data used for this empirical study over 15 years from 2000 to 2014 in banking competition and risk and data processing details.
+
+## 3.1Bankscope data
+
+Data used in this paper is obtained from the database of Bankscope, covering 2066 commercial banks in 20 non-OECD countries with standard reporting data that facilitate comparison across different accounting systems. The advantage of unbalanced data includes allowing to use the information provided by raw data more greatly and avoid the bias with small sample size of balanced data.
+
+Consolidated data are preferred firstly and unconsolidated data are only used for reference. When no consolidated data are available, unconsolidated data are used. According to a number of selection rules, I set priority from the most important variables and eliminate data under special circumstances. Theoretically speaking, all chosen financial indices, which will be introduced in more details later, should be non-negative while the raw data may include some mistaken values. Therefore data processing covers a process of excluding non-positive values and taking the log. In order to eliminate those outliers, threshold is set by 1% each country to reduce the outliers both directions. Only after data processing, index used in the methodology could be calculated and used for the second-stage regression.
+
+After all the procedure, our final data set includes 7875 bank-year observations from 2066 different banks. India shows the largest number of bank-year observations at 1022, followed by Brazil (992), Argentina (581), China (554), and Malaysia (502).
+
+![T1](/commercial/T1.png)
+
+## 3.2 Macro data
+
+In the later part I also collect the data for some relevant macro variables, such as the growth rate of real GDP, interest rate and inflation rate in these 20 countries from 2000 to 2014. These data are selected from the EIU Country database. To calculate the interest rate, I use the lending interest rate instead of the money market rate as nearly all the lending interest rate data are available.
+
+# 4.  Model construction
+
+This section mainly focuses on the approach to measure competition (Panzar-Rosse H statistics) and risk measurement (Z-scores), followed by the explanation to variables.
+
+## 4.1 The Panzar-Rosse H statistics
+
+Introduced by Panzar and Rosse (1987) [11], the Panzar-Rosse approach (P-R approach) measures market competition by the sum of the elasticities of commercial banks` income to the price of input factors. The derivation process is shown below.
+
+When bank i realizes its profits maximization, its revenue and marginal cost are equalized:
+
+$$R^{'}_i\left(x_i,n,z_i\right)-C^{'}_i\left(x_i,w_i,t_i\right)=0$$ (1)
+
+w${}_{i\ }$indicates the price of input factors of i th banks;
+
+z${}_{i\ }$denotes the vector of exogenous variables that shift the bank`s revenue function;
+
+t${}_{i\ }$is the vector of exogenous variables that shift the bank`s cost function;
+
+Given constrains, profits equal to 0:
+
+$$R^*_i\left(x^*,n^*,z\right)-C^*_i\left(x^*,w,t\right)=0$$ (2) 
+
+Variables marked with an asterisk (*) represent equilibrium values.
+
+P-R approach measures the industry competition as H-statistics which can be expressed by the elasticity of input prices:
+
+$$H= \sum_{k=1}^{m} \frac{\partial R^*_i}{\partial w_{k_i}}\frac{w_{k_i}}{R^*_i}$$
+
+(3) 
+
+The empirical approach is based on the assumption that the market is under the long-term equilibrium status. Rosse and Panzar(1987) proved the rationality of the H-statistics. Later, Shaffer(1982) [12] redefined the definition of H-statistics more accurately through research (Table 2):
+
+Table 2
+
+![T2](/commercial/T2.png)
+
+If H≤0, then the market is viewed as completely monopoly market or short-term oligopoly market. With the price of input factor wi increasing, the marginal costs C’ increase as well. Meanwhile, the equilibrium output decreases and total revenue declines. When H$\mathrm{\in }$(0,1), the market is in the monopolistic competition situation. In that case, the marginal cost of the monopoly company C’ is equal to the marginal revenue of it R’ and the average cost is also equal to the average revenue of the company. When the marginal costs increases, the competitors of those monopoly companies would adjust the output plan till equilibrium, where the total revenue increases and the percentage increased by the input price would exceed the percentage increased by the total revenue. When H=1, the market is under perfect competitive market or natural monopoly market. The increase of the input price would boost the marginal costs and total revenue by the same degree.
+
+According to Bikker and Haaf (2002) [13], the empirical model of P-R approach that assumes a log-linear marginal cost function:
+
+$$lnMC=\alpha_0 + \sum_{i=1}^{m} \beta_ilnFIP_i+\sum_{j=1}^{p} \gamma_ilnEX_{cost_j}$$
+
+(4) 
+
+where OUT indicates the output of the bank;
+
+FIP indicates the factor input prices (regarding funding, personnel expenses and other non-interest expenses)；
+
+EXCOST indicates other exogenous variables to the cost function (1) ;
+
+Similarly, the marginal revenue function also assumes a log-linear form:
+
+$$lnMR=\delta_0 + \delta_1 lnOUT+\sum_{k=1}^{q} \xi_iEX_{REV_k}$$
+
+(5)
+
+EX${}_{REV\ }$ indicates variables that are related to the bank-specific demand function. For a commercial bank which would maximize its profits, marginal costs equal marginal revenue when at equilibrium, then the equilibrium value for output (denoted by an asterisk):
+
+$$  lnOUT^* =  [ \alpha_0 - \sum_{i=1}^{m}\beta_ilnFIP_i+\sum_{j=1}^{mp} \gamma_ilnEX_{cost_j}$$
+
+$$- \sum_{k=1}^{q} \xi_iEX_{REV_k}]/({\delta }_1-{\alpha }_1)$$  
+
+(6)
+
+The reduced-form revenue equation can be obtained when satisfying equilibrium output and the common price lever. In logarithmic, it is (denoted by an asterisk):
+
+$${ln p^*=\xi +\ln(\sum_i{{OUT}^*_i})\ }$$
+
+(7)
+
+Based on the framework, the empirical analysis could use the following reduced-form revenue equation:
+
+$$lnINTR=\alpha +\beta lnAFR+\gamma ln PPE$$
+
+$$+\sum \xi_jBSF_j+\delta lnPCE+{ln OI+e }$$
+
+(8)
+
+where INTR indicates the ratio of total income to total assets;
+
+AFR denotes the ratio of annual interest expenses to total liability;
+
+PPE is the ratio of personnel expenses to the total assets;
+
+PCE is the ratio of all physical capital expenditure and other expenses to fixed assets;
+
+OI is the ratio of other income to the total assets;
+
+e indicates a stochastic error term;
+
+INTR denotes interest income, AFR the average funding rate, PPE the price of personnel expenses, PCE the price of capital expenditure, BSF the bank-specific exogenous factors and OI the other income ratio. AFR, PPE and PCE could ideally illustrate the unit price of the banks inputs: funds, labor and capital. When some of these three index could not be obtained, we could also use the approximated value and get the proxies of these prices.
+
+Panzar and Rosse (1987)  construct H statistic to measure the competition of banking industry with (8). In words, the H statistic is calculated as the sum of the elasticities of a banks revenue with respect to the banks prices of all input factors, which could be written as:
+
+$$H=\beta +\gamma +\delta $$
+
+(9)
+
+In order to obtain a time variant H statistic over the time span, an assumption should be satisfied that the competition level of banking industry gradually converge to the long-term equilibrium level. A continuous time-curve model is constructed as:
+
+$$lnNTR = \alpha +(\beta lnAFR+\gamma lnPPE + \delta lnPCE) e^{\epsilon TIME}$$
+
+$$+\sum{{\xi }_j}lnBSF_j+\eta lnOI + e $$
+
+(10)
+
+And the H statistic is calculated as:
+
+$$H=(\beta +\gamma +\delta)e^{\epsilon TIME} $$
+
+(11)
+
+To explain it, $\epsilon$<0 ($\epsilon$>0) indicates a decrease (increase) in competitiveness over time. H statistic keeps constant when $\epsilon=0$.
+
+## 4.2 The risk measurement
+
+Based on Roy (1952) [14], Z-scores effectively measures the probability of bankruptcy, or the credit risk of banks. To put it simply, a bank would have a high probability to go broken when its capital could not be enough to absorb losses. The stability of a bank would increase with its return on assets and equity and decline with the variation of return on assets. Then in terms of value, a higher value of Z-scores indicates lower risks level and higher stability. It could be expressed as:
+
+$$Z=\frac{{ROA}_{it}+{({E}/{A})}_{it}}{{(\widehat{\sigma })}_{it}}$$
+
+(12)
+
+where ROA indicates the return on assets;
+
+E/A indicates the ratio of equity to assets;
+
+$\widehat{\sigma }$ indicates the standard deviation of the return on assets;
+
+In the literature, to obtain time-variant Z-scores, rolling standard deviation is often used. Due to the moving standard deviation within 3 years to calculate the z-score, the first two years observations, i.e. 2000 and 2001, have to drop so the final data set cover effective value from 2002 to 2014.
+
+To interpret, Z-scores are positively correlated with return on assets and capital-to-assets ratio while negatively correlated with earning volatility, i.e. the standard deviation of return on assets. Bank risks decrease when Z-scores increase, showing a more stable condition with a higher ability to absorb loses.
+
+## 4.3 Empirical implementation
+
+In order to apply the P-R model to our data, the following empirical reduced form equation is used, just like the Equation (10):
+
+$$lnNTR = \alpha +(\beta_1 lnAFR+\beta_2lnPPE + \beta_3 lnPCE) e^{\epsilon TIME} $$
+
+$$
++\beta_4lnCDR +\beta_5lnRPR+\beta_6lnOI+\beta_7lnLQD+\beta_8lnTA+e
+$$
+(13)
+
+All those three input factor prices (AFR, PPE and PCE) cannot be observed directly, so I use the ratio of total interest revenue to total liabilities as a proxy for the average funding rate, the ratio of personnel expenses to total assets as an approximation to the price of personnel expenses and the ratio of overheads to fixed assets as a proxy for the price of capital expenditure. Due to the lack of employment details, personnel expenses data could not be provided at a relatively wide range in the data set,  causing a loss of some observations. Additionally, I also include several bank specific factors into the empirical model. CDR is the ratio of net loans to total assets, RPR is the ratio of equity to total assets, OI indicates other income by the ratio of other operating incomes to total assets, LQD indicates liquidity by the ratio of liquid assets to deposits and short term funding and TA indication total assets. All those bank specific factors could reflect bank size, risk preference and income structure, which may also influence bank revenue.
+
+In order to calculate the Z-score, I follow the Equation (12) and calculate the rolling standard deviation of return on assets with observations in the past three years. Therefore, for every bank year observation, first two years, i.e. observations in both 2000 and 2001 are dropped.
+
+# 5. Empirical Results
+
+## 5.1 Competition in the banking industry
+
+H statistics is calculated as P-R model, the equation (13) to measure the related price coefficients of every country with the unbalanced data. The nonlinear least square could be estimated with the Stata.
+
+For all 20 countries in the data set, coefficients are estimated by Equation (13), reported in the Table 3.
+
+The results show that for most countries (19 out of 20), the average funding rate is significantly positively correlated with the revenue. And for most cases, the average funding rate appears to be the biggest coefficients, indicating that the price of funding affects the bank income by the largest scale. And for all 20 countries, the price of personnel expenses is also significantly positively correlated with the revenue. As for price of capital expenditure, 17 countries show a significantly positive correlation with the revenue and 2 countries show a significantly negative correlation. Both these 2 countries could be rejected at the 1% confidence level while all those 17 countries are still significant even at the 1% confidence level.
+
+The one-side t-test indicates that the time coefficient ε is significantly positive for 10 countries and significantly negative for 2 countries, showing that 10 of them have an increase in competition and 2 have a decrease competition over time. As to the remaining 8 countries, the results show that the time coefficients are not significantly even at the 10% confidence interval, indicating that for those 8 countries (China, Colombia, Hungary, India, Mexico, Nepal, Poland and Thailand), H statistics should keep constant over years.
+
+![T3](/commercial/T3.png)
+
+After obtaining all the coefficients, to construct the H statistic of each country, both the time variant value based on only statistically significant estimates and the value without considering the significance of estimates are calculated. Following the equation (14), Table 4 and Table 5 show the results.
+
+![T4](/commercial/T4.png)
+
+![T5](/commercial/T5.png)
+
+## 5.2 Risks in the banking industry
+
+With all the observations in 20 countries, equation (12) calculates the every bank-year Z-score from 2002-2014 (first two years are eliminated). The average of all Z-scores in every year each country is shown in Graph 1. The stacked area graph would not only show the trend of banking risks each country over time, but also show the accumulative risk level every year. We find a general rising trend over these 13 years both for each country and for the accumulated value, indicating that the risks burdened by the banking industry in the non-OECD countries are actually decreasing. However, if we looking into the graph from 2007-2009, the subprime crisis worldwide, a general decreasing trend could be noticed. It is reasonable since banks are faced with public confidence lose, risks of running and a bad industrial situation during the global financial crisis.
+
+Graph 1
+
+![G1](/commercial/G1.png)
+
+
+## 5.3 Empirical results of relationship between competition and risk
+
+In the following section, we regress Z-scores on H statistics, with other controlled variables, to analyze the relationship between bank competition and risk. Here H statistics calculated by both approach above are put into the final regression to measure the competition and Z-scores calculated above are used to measure bank risks. The regression equation is:
+
+$$
+Risk=c+\alpha*Competition+\beta *Bank\ Specific \ Factors
+$$
+
+$$
++\gamma * macro \ index
+$$
+(14)
+
+Due to the limitation of the data base, some bank-year observations are missed and the final panel data set is unbalanced. If those values are missing randomly, the fixed effects estimator can be easily extended to our unbalanced panel. In the final regression model, not all the individual heterogeneity could be controlled, so the fixed effect estimators are more ideal.
+
+As shown in the equation (14), we also control the effect of macroeconomic variables on risk level of banking industry, namely real GDP growth rate, inflation, and the first order difference of interest rates.
+
+The model with H statistics using all estimates are not consistent with the one using only statistically significant estimates. Since the later results consider the significance of coefficient, it is more reasonable to use the later one. Only results of three different regression models with H statistics in Table 5 are reported (Table 6).
+
+Generally speaking, H statistics is significantly negatively correlated with the Z-scores, suggesting that banks` risks level would increase when market competition increase. In the third model, if H statistics increases by 1 unit, then the bank risk would increase by 5.55 unit. The coefficients are smallest in number in the first model, at 0.2972. To explain it, even though competition would accelerate the evolution and optimization of banking industry and eliminate low efficient banking units, the new entrants could threat the intrinsic equilibrium and imperil every individuals. Especially in our selected developing countries and districts, economic conditions are not so stable and the regulation systems are not so found. Any vicious competition by new entrants would harm the banking industry by a relatively larger degree.
+
+As to the size effect on the risk level, in the model 1, total assets is significantly positively correlated with the risk level at the 1% confidence interval while in another two models, we fail to reject the null hypothesis that the effects are significantly different from zero.
+
+To consider the marginal effect of both competition and size, we add an interaction item of total assets and H statistic into the model. The coefficients are significantly positive correlated with the risk level in the last two models. Hence, as the size of the bank fixed, the effect of competition on the risk level would exceed the effect of size on the risk level by 0.33% (in model 2), which also indicates that a relatively larger bank would be less impacted by competition. It could be because banks with a larger size can have lower financing costs, allocate assets more wisely and develop more sophisticated internal control systems.
+
+Model 3 suggests a positive effect of liquidity on banks risk level. A bank with higher liquidity has a better performance and a lower probability to be insolvent. Since the liquidity measures a company`s ability to repay short-term creditors out of its total cash, a higher liquidity helps the banks to control risk.
+
+We also find that macro-economic condition also imposes significant effects on banks` risk level. With a higher GDP growth rate, more good investment opportunities maybe available for bankers and then help the banks to have a more profitable investment portfolio. Increase of difference in interest rates happens when monetary policy is contractionary. With conservative concepts in those years, a larger part of banks money would put as reserve, but not invest projects to gain profits, decreasing the risk level of banking industry.
+
+The coefficients of years show a significant decreasing trend on risk level, which is in line with the trend showed in the Graph 1. In these 20 countries, the overall risks decline may be contributed by the more comprehensive regulatory system and more rational investment decision.
+
+![T6](T6.jpg)
+
+# 6.  Conclusions
+
+In sum, commercial banks bear higher risk level when the competition is more severe and big banks are safer than small and medium sized banks in competition. At the same time, higher liquidity would help banks to absorb losses and then avoid failing. As to the macro-economic factors, higher GDP growth rate, higher inflation rate and more conservative monetary policy all contribute to lower bank risks.
+
+Our finding lends strong support to the evidence that bank size is a significant factor when considering risks. Those critics on big banks claiming that big banks should be broken up into smaller banks appear to be not persuasive as they stand. Oppositely, a proper increase of big banks` portion would stabilize the banking system.
+
+For regulators in developing countries, evidence shows that competition among commercial banks would enhance the probability of fails. Although a market with less constraints would provide more opportunities, banking industry is somehow different with other service industry since any bankruptcy involves a large number of other enterprises and individuals. Criteria for the entry and exit should be set and carried out efficiently. In order to improve the overall industry ability to absorb losses, a reasonable liquidity ratio and deposit reserve ratio could be established. They should also keep prudent that risks are coming with positive GDP growth rate, even though it proves a promising investment environment. On this occasion, few control on monetary policy would be published, also exposing banks to higher risk level.
+
+
+# References
+
+[1] Duchin, R. and Sosyura, D. Safer Rations, Riskier Portfolios: Banks` Response to Bovernment Aid [R], _Ross School of Business Working Paper,_ No. 1165. 2011
+
+[2] Jayaratne, Jith. , and Philip E. Strahan, 1998, Entry Restrictions, Industry Evolution, and Dynamic Efficiency: Evidence from Commercial Banking, _Journal of Law and Economics,_ 41, 239 ~ 273.
+
+[3] Beck, T., Demirguc – Kunt, A., and R. Levine, 2006, Bank concentration, competition, and Crises: First Results, _Journal of Financial and Quantitative Analysis_.
+
+[4] Boyd, J., De Nicolo, G., and E. Loukoianova, 2009, Banking Crises and Crisis Dating: Theory and Evidence, _IMF Working Papers, 2009/141, Washington D.C._
+
+[5] Chan, Yuk – shee. , Greenbaum, Stuart. , and Anjan Thakor, 1992, Is fairly priced deposit insurance possible? _Journal of Finance,_ 47, 227~245.
+
+[6] Marquez, R., 2002. Competition, adverse selection, and information dispersion in the banking industry, _Review of Financial Studies_ 15, 901 ~ 926.
+
+[7] Yeyati, E. and Micco, A. (2003). Banking competition in Latin America, _Latin American Competition Forum._
+
+[8] 陈伟光、李隽，2007，《商业银行体系稳定性与竞争程度之测度研究》，《现代财经》第4期14~18页。
+
+[9] 邹鹏飞、欧阳青东，2011，《信贷市场竞争与银行业的稳定性》，《湘潭大学学报》第3期38~44页。
+
+[10] 杨天宇、钟宇平，2013，《中国银行业的集中度、竞争度与银行风险》，《金融研究》第1期122~134页。
+
+[11] Panzar, J.C., and J.N., Rosse, 1987, Tesing for Monopoly Equilibrium, _Journal of Industrial Ecnomics,_ 35, 443 ~ 456.
+
+[12] Shaffer, S., 1982, Competition Conduct and Demand Elasticity, _Economic Letters,_ 10, 167 ~171.
+
+[13] Bikker, J.A., and Haaf, K., 2002, Competition, Concentration and Their Relationship: An Empirical Analysis of the Banking Industry, _Journal of Banking and Finance,_ 26, 2191 ~2214.
+
+[14] Roy, A.D., 1952, Safety First and the Holding of Assets, _Economeetrica_, 20, 431 ~ 44

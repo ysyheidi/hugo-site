@@ -1,0 +1,252 @@
+---
+title: "Investment Strategy in China’s Financial Market"
+thumbnailImagePosition: left
+thumbnailImage: images/investment.jpeg
+metaAlignment: center
+coverMeta: out
+date: 2018-10-13
+categories:
+- tranquilpeak
+- features
+tags:
+- cover image
+---
+
+We decided to choose individual investors. Because we think it’s more practical and feasible for us who are short of real investment experience.
+
+Our client is a middle-aged woman with $500,000 (RMB 3,100,000) to invest. She is relatively a risk lover. With Chinese stock market booming, she wants to invest in the stock market. Her expected return is 15% in one year and the maximum loss she can afford is 20%. Our target is to maximize the profit while controlling the risk by diversifying the investment.
+
+Since we decided to construct a portfolio with high return and high risk, we choose to invest 80% in the stock market. Meanwhile, we use the investment in bond market (20%) to reduce the risk to some degree.
+
+For stock investment, we first choose four stable and promising industries according to Chinese government policies, which are construction, finance, environmental protection and alternative energy. Then we construct a scoring system according to the method of Analytic Hierarchy Process (AHP) as well as the growth and risk factors. This is a system that will score the stocks based on the weight of each factor, and then at the beginning of each quarter, we will buy and hold the portfolio with highest scores. Each quarter the portfolio will be adjusted in terms of new scores at each quarter. We use this system to pick 5 stocks with highest scores in each of the four industries to construct our stock portfolio. To determine the weights of the selected 20 stocks, we use mean-variance optimization method. In addition, we choose Chinese one year T-bills as our risk-free asset.
+
+In the evaluation part, we find our whole portfolio with 19.446% return in the two months which beat the benchmark, but when compared to individual industry stock portfolio, our stock investment has inferior return.
+
+<!--more-->
+#  Investment Strategy in China’s Financial Market
+
+
+# I. Introduction
+
+We decided to choose individual investors. Because we think it’s more practical and feasible for us who are short of real investment experience.
+
+Our client is a middle-aged woman with $500,000 (RMB 3,100,000) to invest. She is relatively a risk lover. With Chinese stock market booming, she wants to invest in the stock market. Her expected return is 15% in one year and the maximum loss she can afford is 20%. Our target is to maximize the profit while controlling the risk by diversifying the investment.
+
+Since we decided to construct a portfolio with high return and high risk, we choose to invest 80% in the stock market. Meanwhile, we use the investment in bond market (20%) to reduce the risk to some degree.
+
+For stock investment, we first choose four stable and promising industries according to Chinese government policies, which are construction, finance, environmental protection and alternative energy. Then we construct a scoring system according to the method of Analytic Hierarchy Process (AHP) as well as the growth and risk factors. This is a system that will score the stocks based on the weight of each factor, and then at the beginning of each quarter, we will buy and hold the portfolio with highest scores. Each quarter the portfolio will be adjusted in terms of new scores at each quarter. We use this system to pick 5 stocks with highest scores in each of the four industries to construct our stock portfolio. To determine the weights of the selected 20 stocks, we use mean-variance optimization method. In addition, we choose Chinese one year T-bills as our risk-free asset.
+
+In the evaluation part, we find our whole portfolio with 19.446% return in the two months which beat the benchmark, but when compared to individual industry stock portfolio, our stock investment has inferior return.
+
+# II. Equity investment
+
+At first, we choose four industries according to government policies. Then use scoring mechanism to choose 5 stocks in each industry to construct the stock portfolio.
+
+## 1.Industry selection
+
+In China, the market is highly directed by the policies. This is a turning point that new growth mode will appear and old highly developing industries will face reform or collapse. For investors, analyzing the government policies at this moment can help us to seize the new growth opportunities and grasp the economic main direction. By reviewing the recent policies, we choose four industries construction industry, financial industry, environmental protection industry and alternative energy industry as our industry base to choose stock. In the following, we will analyze the policies that contribute to the growth opportunities of these four industries. (Appendix I)
+
+### 1.1 Construction
+
+One Belt And One Road (OBAOR) Strategy brings great opportunity to construction industry. One of its focuses is to achieve the close connections of infrastructure, which will directly be beneficial to the construction companies. Besides, the establishment of Asian Infrastructure Investment Bank provide sufficient fund for infrastructure construction. On April 21 this year, Measures for the Management of Infrastructure and Public Utilities was passed to encourage the innovation and the introduction of private capital in this field.
+
+### 1.2 Financial industry
+
+The expansionary monetary policy encourages the money inflow into the stock market, which leads to the booming of stock market and the investment banks. Besides, the land route of One Belt And One Road will open the market of finance. The commercial banks can expand the profit by participating in the projects and international business.
+
+### 1.3 Environmental protection
+
+Water Pollution Control Action Plan was reported in April, which will bring strong supervision in sewage disposal, industrial waste and the pollution. It is estimated that the government investment will achieve two trillion and the social investment will achieve 4 trillion. Besides, the PPP (Public—Private—Partnership )policy strengthened the public and private cooperation in the infrastructure to deal with water pollution.
+
+### 1.4 Alternative energy
+
+New Electric Change Plan released in Nov. 2014 allows the private capital into the electricity field, which may reconstruct the energy network. And according to the requirement of the New Policy of Quota System, the capacity of photovoltaic conversion and wind electricity will increase a lot. This evaluation system will significantly encourage the alternative energy industry.
+
+## 2.Equity scoring mechanism
+
+To choose stocks for our portfolio, we want to create a scoring mechanism based on which the stocks with highest score would be our choice. The score mechanism we created according to the method of Analytic Hierarchy Process (AHP), and the detailed process is as follows:
+
+Figure 1 shows our general procedure of getting the scores of each stock based on AHP analysis, which refers to attributing different weights to the factors considered in different classes. We firstly compare the relative importance of each factor with respect to each other and calculate the weights of them. Then we decide on the weights of the two classes—growth and risks with 3 and 4 factors influencing them. Finally we construct the total integrated score using these factors.
+
+The Figure 2 and Figure 3 list the factors within two different classes for us to give the integrated score of the stocks. The signs of these variables are almost positive except circulated value. This is because we both want larger growth opportunity of its returns and simultaneously larger risk since our client is a risk lover. And according to the theory of size effect small-sized companies generally present better performance about the returns.
+![F1](/investment/F1.png)
+
+![F2](/investment/F2.png)
+
+![F3](/investment/F3.png)
+
+In this report we have proved the plausibility of the comparative matrixes in the Appendix II and we can construct our own scoring mechanism to attribute the points to each stock using the factors chosen above:
+$$
+score = \beta_1 A_1 + \beta_2 A_2 + 
+\beta_3 A_3 + 
+\beta_4 A_4 + 
+\beta_5 B_1 + 
+\beta_6 B_2 + 
+\beta_7 B_3 + 
+$$
+
+$$
+\beta  =(0.3481, 0.1332, 0.1332, 0.0512, 0.2123, 0.0816, 0.0349 )
+$$
+
+## 3. Test procure on scoring mechanism
+
+Here we test our scoring mechanism with real historic data from Chinese financial market.
+
+Based on the AHP method to calculate the weights attributed to each factor we use, we can get the scores of every individual stock with the scoring mechanism. We conduct this process with the following steps:
+
+**Step 1. Generate all the data needed for calculation**
+
+In this step we utilize the seasonal data of each stock with respect to its corresponding company’s financial data. The reason why we have to use the quarter data is that financial factors such as PE and ROE can only be published every quarter. All the data were downloaded from RESSET database from 2011 to 2014. But among them the quarterly rise of the stock was calculated by subtracting the open price of a certain quarter from the close price of that quarter. And the volatility of each stock of a quarter was generated using the daily returns of the whole season, because we regard the daily returns can be more accurate for volatility.
+
+**Step 2. Score every stock**
+
+When we merge all the data with their 7 respective factors there are 1332 stocks left after ruling out the ones with missing observations. And the following formula gives the scores of every stick in every quarter.
+
+$$
+score=0.3481PE+0.1332ROE+0.1332net profit-0.0521value+0.2123rise+0.0861volatility+0.0349turnover
+$$
+
+**Step 3. Construct the portfolio**
+
+The scores of all the stocks in a certain quarter help up rank the stocks from high to low scored with 45 groups. We attribute the numbers from 1-45 to the stocks within the range of score of that season. In this way we can get 45 portfolios every quarter with approximately 30 stocks in one portfolio scored from high to low. Then hold the stocks in Portfolio 45 which contains the stocks with the highest scores in that season for the next season. In general this process can be expressed in the chart below.
+
+```mermaid
+graph LR
+A[Data of Factors] --> B[Score of Stocks]
+B --> C(Select highest-scored stocks)
+
+```
+
+With this system of selecting the stock portfolios, we change the portfolio every quarter based on the observations of the previous quarter to calculate their scores and thus constructing the new portfolio containing possible different stocks prevailing in the next period.
+
+## 4. Test Results
+
+Figure 4 presents the cumulated returns after 4 years (16 seasons) with different selections of portfolios from lowest-scored portfolio (P1) to the highest-scored portfolios (P45):
+
+It can be seen clearly that this pattern exists and the highest portfolios can generate even 4 times of its initial value in 4 years from 2011 to 2014.
+
+It seems that the highest portfolio indeed beat the market and the lowest ones give the worst performance. It is also found out that both of these portfolios returns in the 4 years move closely with the market return. This can be explained that the portfolios have been well-diversified containing the lowest ones in every sector.
+
+![F4](/investment/F4.png)
+
+Figure 5 shows the different portfolios performances in the 4 years compared with the market returns:
+
+![F5](/investment/F5.png)
+
+It turns out that the effect of this strategy of selecting the stocks work well in the previous times. Therefore, we decide to continue this mechanism in the 4 sectors chosen above to construct our own dynamic portfolios every quarter.
+
+## 5. Stock Selection
+
+After we have decided on the 4 sectors and apply this scoring mechanism in the process of stock selection, we score the stocks at the end of March, 2015 based on observations of the factors from the previous quarter (2015.1-2015.3). We select the first 5 highest-scored stocks of each sector chosen to establish the stock portfolio.
+
+# III. Asset allocation
+
+We subjectively determined to invest 20% of our money on T-bill and the other 80% into stock market. In our portfolio we choose Chinese one year Treasury bill as our risk free asset to lower the risk of our portfolio. The quoted name of the selected bond is “15国债01” [019501], the coupon rate is 3.14% annually.
+
+To determine the weights of the selected 20 stocks in our stock portfolio, we use mean-variance optimization method to construct our optimal stock weights. Here we used MATLAB and Excel solver to solver the mean-variance optimization question.
+
+First, we use last 4 months daily return data of each stock to estimate the expected return and volatility for each stock. Then, the covariance of each stock with other stocks have to be calculated to determine the total variance of the portfolio, so the historical data are used to determine the variance-covariance matrix. After we got the expected return and variance-covariance matrix, the mean-variance optimization question function can be constructed. Here we assume the risk aversion parameter of our client is _A_=2, thus, the utility function can be constructed. And we should maximize the investor’s utility:
+
+
+$$
+U=  U(\mu_p, \sigma_p) = \mu_p-0.5A\sigma_p^2=\mu_p-A\sigma_p^2
+$$
+where
+$$
+\mu_p= \sum_{i=1}^{n}\sum_{j=1}^{n} w_i w_j\mu_{i,j},
+\sigma_p^2= \sum_{i=1}^{n} w_i \mu_i,
+and \\ \sum_{i=1}^{n} w_i =1
+$$
+
+By using MATLAB, we have solved the optimal weights for each stock, maximizing the utility when minimizing the total volatility of the portfolio. The following table shows the weight of each stock in our stock investment portfolio. The reason of why those stocks whose weights are zero is that those stocks have lower expected return comparing to other stocks given a level of volatility.
+
+Figure 7 shows the mean-variance curve for our portfolio. By combining the risk free line, the optimal stock portfolio weights can be determined. And the final optimal expected return is 0.768% with standard deviation of 2.13% daily.
+
+![F6](/investment/F6.png)
+
+![F7](/investment/F7.png)
+
+# IV. Portfolio performance evaluation
+
+Since we divided the initial investment into stocks and T-bills, this section we will examine the total return of the portfolio from the investment period, 30th March to 29th May, 2015. We use the M2 measure to evaluate the portfolio performance. And then we set up a benchmark portfolio to measure our portfolio attribution based on the industries and markets we choose before.
+
+## 1.Total return
+
+During investment period, we get a total return of 19.446%, without taxes and administration fee. The summary of the portfolio performance is shown in Figure 8. The total earnings are ￥601,869. And then we take into account the taxes and administration fees to our earnings. Under the regulations of Shanghai Stock Exchange and Shenzhen Stock Exchange, the total transaction costs of security trading are ￥4,589.85. Thus, the net profit is ￥597,279.15, and the net total return is 19.30%. (Appendix III)
+
+![F8](/investment/F8.png)
+
+## 2. M2 measure of performance
+
+Here we use M2 measure to evaluate the risk- adjusted performance. The data are from our investment period, and we find out that this return is greater than the market by 2.78%, which means that our portfolio outperformed.
+
+![F9](/investment/F9.png)
+
+## 3. Performance attribution
+
+In this part, we establish a benchmark level of performance against performance of our portfolio. The benchmark is designed to invest in equity and bond with weights of 70% and 30%, respectively.
+
+### 3.1 Excess return
+
+![F10](/investment/F10.png)
+
+Here we find out that the excess return against the bogey is 5.882%.
+
+### 3.2 Asset allocation and selection within market
+
+Figure 11 demonstrates that asset allocation contributed 1.844% to the overall excess return of 5.882%, and the sector and security selection contributed 4.038% to total excess return. In order to assess our main strategy with the equity market, we decomposed equity excess return to sector selection and security selection within equity market. The results show that both of them positively contributed to the equity excess return, 4.488% and 0.633%, respectively. (Appendix IV)
+
+![F11](/investment/F11.png)
+
+### 3.3 Summary of portfolio attribution
+
+The analysis shows that our equity selection has a significant positive contribution to total excess return. And our policy industry selection method and scoring mechanism are reasonable and valued.
+
+![F12](/investment/F12.png)
+
+# V. Conclusion
+
+Given $50,000 (￥3,100,000) initial capital, we distributed ￥2,480,000 in China’s A-share market, and ￥620,000 in T-bills. Our investment started from 30th March, 2015 to 29th May, 2015. Under our investment strategy, we first focus on 4 sectors based on the recent underlying policies issued in China, containing alternative energy, environment protection, engineering construction and financial industry.
+
+Then we utilize the scoring mechanism based on Analytical Hierarchy Process to attribute scores to all the stocks within these sectors. After ranking them from high to low, we select the first 5 stocks with the highest scores as our stock portfolio. The strategy is to hold them for the next quarter and sell all of them to refresh the portfolio.
+
+After we add in a bond chosen, the whole investment portfolio has a total 19.446% return within the investment period, which is greater than the client’s projected return, 15%. The M2 measure shows that out portfolio outperform market. And the attribution performance also proved that our investment strategy is effective, especially within equity market.
+
+
+# References
+1. Bodie, Zvi, Alex Kane, and Alan J. Marcus. _Investments, 9th Edition_. China: The McGraw-Hill Education (Asia) and China Machin press, 2011.
+
+2. Holden, Craig W. _Excel Modeling and Estimation in Investments, 3rd Edition_. Prentice Hall, 2008.
+
+3. Sarrty TL . The analytic Hierarchy Process. McGraw-Hill, New York, 1980.
+
+4. Shao Qingfang. “Integrated evaluation of entrepreneur financial statements based on method of Analytical Hierarchy Process.” _Financial Report and Analysis_ 9 (2010): 123-125.
+
+5. Baidu Baike.”One Belt And One Road”
+
+[http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK](http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK) (Accessed May.31, 2015)
+
+6. Sina Finance.” The beneficial companies from OBAOR”
+
+[http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK](http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK) (Accessed May.31, 2015)
+
+7. Huagu Finance.”Construction: the State Council passed the management of PPP”
+
+[http://stock.huagu.com/sc/hyfx/1504/1080564.html](http://stock.huagu.com/sc/hyfx/1504/1080564.html) (Accessed May.31, 2015)
+
+8. Baidu Baike.”Water Pollution Control Action Plan”
+
+[http://baike.baidu.com/link?url=T9yKUIc93tnNkAz6h2gQiw_S14x6RDXdI-aTzODJfD5l_JNGSnsUHbNMy2smKufRo2W-XPiHvA_tGzPSWm9Dqq](http://baike.baidu.com/link?url=T9yKUIc93tnNkAz6h2gQiw_S14x6RDXdI-aTzODJfD5l_JNGSnsUHbNMy2smKufRo2W-XPiHvA_tGzPSWm9Dqq) (Accessed May.31, 2015)
+
+9. Huagu Finance.” New energy industry: the effect of multifactor”
+
+[http://stock.huagu.com/sc/hyfx/1503/1069687.html](http://stock.huagu.com/sc/hyfx/1503/1069687.html) (Accessed May.31, 2015)
+
+10. China Power.” The new quota system of new energy will be released”
+
+[http://www.chinapower.com.cn/newsarticle/1221/new1221123.asp](http://www.chinapower.com.cn/newsarticle/1221/new1221123.asp) (Accessed May.31, 2015)
+
+11. Huagu Finance. “Banks: Optimistic about the international finance service in OBAOR”
+
+[http://stock.huagu.com/sc/hyfx/1503/1059389.html](http://stock.huagu.com/sc/hyfx/1503/1059389.html) (Accessed May.31, 2015)

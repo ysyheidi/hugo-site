@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Siyao(Heidi) Yuan</title>
+    <link>https://ysyheidi.github.io/tags/</link>
+    <description>Recent content in Tags on Siyao(Heidi) Yuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ysyheidi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cover Image</title>
+      <link>https://ysyheidi.github.io/tags/cover-image/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ysyheidi.github.io/tags/cover-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disqus</title>
+      <link>https://ysyheidi.github.io/tags/disqus/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ysyheidi.github.io/tags/disqus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Analytics</title>
+      <link>https://ysyheidi.github.io/tags/google-analytics/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ysyheidi.github.io/tags/google-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gravatar</title>
+      <link>https://ysyheidi.github.io/tags/gravatar/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ysyheidi.github.io/tags/gravatar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hexo Theme</title>
+      <link>https://ysyheidi.github.io/tags/hexo-theme/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ysyheidi.github.io/tags/hexo-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Responsive</title>
+      <link>https://ysyheidi.github.io/tags/responsive/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ysyheidi.github.io/tags/responsive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

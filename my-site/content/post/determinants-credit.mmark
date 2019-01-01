@@ -1,0 +1,107 @@
+---
+title: "Determinants of Credit Spread on Corporate Bonds: Based on Observations of China’s Market"
+thumbnailImagePosition: left
+thumbnailImage: images/determinants.jpeg
+metaAlignment: center
+coverMeta: out
+date: 2018-12-13
+categories:
+- tranquilpeak
+- features
+tags:
+- cover image
+---
+Theoretically, the fair value of a bond is the present value of the stream of cash flows that are expected to generate. Hence, the value of the bond is obtained by discounting the bond’s expected cash flow to the present using an appropriate discount rate.
+
+<!--more-->
+
+# Determinants of Credit Spread on Corporate Bonds: Based on Observations of China’s Market
+
+# 1. Introduction
+## 1.1 Credit Spread Explanation
+Theoretically, the fair value of a bond is the present value of the stream of cash flows that are expected to generate. Hence, the value of the bond is obtained by discounting the bond’s expected cash flow to the present using an appropriate discount rate.
+
+$$
+P \mathrm{=}\sum^n_{i=1}{\frac{{Cashflow}_i}{{(1+YTM)}^i}} (Eq.1.1)
+$$
+
+Therefore, in practice, pricing bond is equivalent to pricing this discount rate, namely the yield. This yield consists of two parts, one is the risk-free yield of the market, and the other is the credit spread, difference in yield between different securities due to different credit quality. So, to be further, pricing the corporate bonds we need to measure and quantify the credit spread. Under the Efficient Markets Hypothesis, we can assume that the credit spread is approximately equal to the default spread which is mainly measured by the default risk.
+
+In this thesis we define the credit spread of a corporate bond as:
+$$
+Credit\ Spread\mathrm{=}YTM\mathrm{-}R_f (Eq.1.2)
+$$
+
+where $\mathrm{\ }R_f$ denotes the risk free return of the market, i.e. the return rate of the treasure bonds.
+
+And this thesis is trying to present and test a hypothesis about determinants of credit spread on corporate bonds in China bond market from the perspective of default risk.
+
+## 1.2 Literature Review
+Fisher (1959) believed that the average risk premium on a firm’s bonds depends first on the risk that the firm will default on its bond and second on their marketability. And the logarithm of average risk premium on a firm’s bond can be estimated by a linear function of the logarithms of the financial variables. Altman (1968) used a multiple discriminant statistical methodology to predict the bankruptcy of a corporate, and he chose earnings variability, period of solvency, equity/debt ratio, and bonds outstanding as the explanatory variables. Currently, the researches of pricing defaultable bonds are divided into two categories: the structural model and reduced-form model. The structural model was first build by Robert Merton in 1974 to the pricing continuous-time option and then he developed the model into credit risk measurement field. The reduced-form model, also known as the default intensity model, was first brought by Jarrow-Turnbull (1995), and then developed and modified by Jarrow-Lando-Turnbull (1997) and Duffie-Singleton (1999). The main difference between the two models is that the structural model assumes that the default is endogenous, while the reduced-form model believes that the defaults are unpredictable emergencies, namely that the default is exogenous.
+
+# 2. Model
+## 2.1 Variable Demonstrationc
+Dependent variable:
+
+Credit spread of a bond, denoted as$\mathrm{\ }YTM\mathrm{-}R_f$. This can be comprehended as the risk premium of a certain bond over the risk free interest rate. Attention should be paid to the fact that the credit spread is positively correlated to the credit risk of default. The higher the credit risk is, the higher the YTM and credit spread are, and the lower the price is.
+
+Independent variables:
+
+Standard deviation of the abnormal returns, denoted as$\ {std}_{abr}$. This variable is the core variable where we concentrate on. It measures the fluctuation of financial performance in the stock market of a certain stock. We believe that this variance may interfere in the bond market with its impacts on the stability of the companies' financial conditions.
+
+Debt-to-asset ratio of the firm, denoted as $\ dar$. This variable serves as one of the most important indexes measuring the capital financial situation of a firm. A company with a relatively high debt ratio may indicate that its ability to pay back the debts is less warrantable. 
+
+Rate of return on stockholders' equity, denoted as $ROE$. It measures the company's ability of gaining profit. In general a company with a higher ROE performs better in generating profits from its assets and therefore has a lower risk of default.
+
+Duration of the bond, denoted as $duration$. It measures the time when an investor can get cash payment. The lower duration may give a higher price of bond and a lower credit spread.
+
+Circulated stock value of the company, denoted as $Csv$. The reason of taking value of a firm into consideration is that we assume a larger company may withstand a higher default risk.
+
+![T2.1](/determinants/T2.1.png)
+
+## 2.2 Model Construction
+The final regression model in our analysis is presented as follows:
+
+$YTM\mathrm{-}R_f={\beta }_1{std}_{abr}+{\beta }_2dar+{\beta }_3ROE+{\beta }_4duration+{\beta }_5Csv+u$ (Eq.2.1)
+
+The estimation of the parameters with their significance will be illustrated in the following part.
+
+# 3. Estimation and Test
+## 3.1 Data source
+
+The regression model involves variables related to corporate bond data, corporate financial indicators and corresponding stock data. The model does not consider the term structure of bond yield, so we eliminate its influence by selecting bonds with years to maturity close to 3 years. In China, there are not too many companies that issue bonds and stocks simultaneously because of the cumbersome issuing process, so the number of observations in one day is not that large. Therefore, the regression model adopts a pooled cross-sectional data which contains three base dates—2013.7.1, 2014.1.1 and 2014.7.1. We selected these three dates because they are the first days of quarterly financial reports of most Chinese companies in order to get appropriate financial data.
+
+In detail, YTM and duration are daily trading data of bonds on the base day. The debt-to-asset ratio and return on equity are from last quarterly financial report. The volatility of excess stock return is the standard deviation of the difference between stock return and market return for the last ten trading days. Risk free rate is the required rate of Treasury bond with same years to maturity. All the data is obtained from CSMAR financial research database.
+
+## 3.2 Empirical results
+We use OLS method to estimate the parameters in the regression model and results are showed in table 3.2. The data and regression are all processed by Microsoft Excel 2010.
+
+![T3.2](/determinants/T3.2.png)
+
+It can be seen from the table that$\mathrm{\ }{std}_{abr}$, $dar$, ROE and $duration$ are all statistically significant at 10% level, which means they play important roles in explaining the changes in dependent variable-credit spread. According to the regression coefficients, it can be concluded that credit spread of bonds increases with$\mathrm{\ }{std}_{abr}$, $dar$, ROE  and duration increase, and decreases with ROE   rises, which corresponds to general financial theory. Among them, the fluctuation in the stock market has significant positive effect on the credit risk. The explanation lies in the fact that a higher fluctuation of abnormal returns motivates the investors demanding a relatively higher risk premium, which is reflected by the rise in the dependent variable. Besides, Csv is not statistically significant unexpectedly. This can be contributed to the fact that the circulated value as the production of current stocks outstanding and price per share cannot directly have impacts on the credit risk of a certain firm. A large sized firm may also go through a significant financial fluctuation which raises its default risk. Therefore its effect on the dependent variable is vague and insignificant.
+## 3.3 Out-sample test results
+
+We use 90 observations to process in-sample regression and with 9 observations for out-of-sample prediction. It can be seen from the test results, showed in the Figure 3.3, that the prediction error is larger than one percentage in terms of absolute value on average. The result is not satisfactory but still can be accepted since we have not taken other possible important factors into account and the number of observation is limited.
+
+![F3.3](/determinants/F3.3.png)
+
+# 4. Conclusions
+To sum up, we may draw the conclusion that the determinants of the credit spread measuring the credit risk of default of a firm contains its performance fluctuation in the stock market, its debt-to-asset ratio, ROE and the duration of its bond. All of these variables have been tested to be significant influential to the $YTM\mathrm{-}R_f$ term, especially our core variable reflecting the companies' stock market stability.
+
+However, due to the limitation of the immaturity of China's bond market, the number of our observations may be not as satisfactory as we expect. On the other hand, the sample we use in our analysis excludes those convertible bonds and redeemable bonds while focusing on corporate bonds. If we can have more specific research into these complicated policies of them it can improve the reliability of our model better.
+
+
+# 5.References
+
+[1] Fisher. L., 1959. Determinants of risk premiums on corporate bonds. Journal of political economy 67, 217-237.
+
+[2] Altman. E., 1968. Financial ratios, discriminant analysis and the prediction of corporate bankruptcy. Journal of finance 23, 589-609.
+
+[3] Jarrow. R. and Turnbull. S., 1995. Pricing derivatives on financial securities subject to credit risk. Journal of Finance 50, 53-85.
+
+[4] Jarrow R., Lando. D. and Turnbull. S., 1997. A markov model for the term structure of credit risk spreads. Review of Financial Studies 10, 481-52.
+
+[5] Duffie D. and Singleton K., 1999. Modeling term structure of defaultable bonds. Review of Financial Studies 12, 687-720.
+
+[6] Merton. R. C., 1974. On the pricing of corporate debt: The risk structure of interest rates, Journal of Finance 29, 449-470.
+
