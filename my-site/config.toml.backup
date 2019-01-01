@@ -55,10 +55,10 @@ canonifyurls = true
   url = "/"
 [[menu.main]]
   weight = 2
-  identifier = "album"
-  name = "Album"
+  identifier = "categories"
+  name = "Categories"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/album/index.html"
+  url = "/categories"
 
 [[menu.main]]
   weight = 3
