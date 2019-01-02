@@ -77,7 +77,9 @@ Introduced by Panzar and Rosse (1987) [11], the Panzar-Rosse approach (P-R appro
 
 When bank i realizes its profits maximization, its revenue and marginal cost are equalized:
 
-$$R^{'}_i\left(x_i,n,z_i\right)-C^{'}_i\left(x_i,w_i,t_i\right)=0$$ (1)
+
+$$R^{'}_i\left(x_i,n,z_i\right)-C^{'}_i\left(x_i,w_i,t_i\right)=0  (1)$$
+
 
 w${}_{i\ }$indicates the price of input factors of i th banks;
 
@@ -87,7 +89,9 @@ t${}_{i\ }$is the vector of exogenous variables that shift the bank`s cost funct
 
 Given constrains, profits equal to 0:
 
-$$R^*_i\left(x^*,n^*,z\right)-C^*_i\left(x^*,w,t\right)=0$$ (2) 
+
+$$R^*_i\left(x^*,n^*,z\right)-C^*_i\left(x^*,w,t\right)=0  (2)$$
+
 
 Variables marked with an asterisk (*) represent equilibrium values.
 
@@ -205,9 +209,8 @@ In order to apply the P-R model to our data, the following empirical reduced for
 
 $$lnNTR = \alpha +(\beta_1 lnAFR+\beta_2lnPPE + \beta_3 lnPCE) e^{\epsilon TIME} $$
 
-$$
-+\beta_4lnCDR +\beta_5lnRPR+\beta_6lnOI+\beta_7lnLQD+\beta_8lnTA+e
-$$
+$$+\beta_4lnCDR +\beta_5lnRPR+\beta_6lnOI+\beta_7lnLQD+\beta_8lnTA+e $$
+
 (13)
 
 All those three input factor prices (AFR, PPE and PCE) cannot be observed directly, so I use the ratio of total interest revenue to total liabilities as a proxy for the average funding rate, the ratio of personnel expenses to total assets as an approximation to the price of personnel expenses and the ratio of overheads to fixed assets as a proxy for the price of capital expenditure. Due to the lack of employment details, personnel expenses data could not be provided at a relatively wide range in the data set,  causing a loss of some observations. Additionally, I also include several bank specific factors into the empirical model. CDR is the ratio of net loans to total assets, RPR is the ratio of equity to total assets, OI indicates other income by the ratio of other operating incomes to total assets, LQD indicates liquidity by the ratio of liquid assets to deposits and short term funding and TA indication total assets. All those bank specific factors could reflect bank size, risk preference and income structure, which may also influence bank revenue.
@@ -254,8 +257,9 @@ $$
 $$
 +\gamma * macro \ index
 $$
-(14)
 
+ (14)
+ 
 Due to the limitation of the data base, some bank-year observations are missed and the final panel data set is unbalanced. If those values are missing randomly, the fixed effects estimator can be easily extended to our unbalanced panel. In the final regression model, not all the individual heterogeneity could be controlled, so the fixed effect estimators are more ideal.
 
 As shown in the equation (14), we also control the effect of macroeconomic variables on risk level of banking industry, namely real GDP growth rate, inflation, and the first order difference of interest rates.
@@ -274,7 +278,7 @@ We also find that macro-economic condition also imposes significant effects on b
 
 The coefficients of years show a significant decreasing trend on risk level, which is in line with the trend showed in the Graph 1. In these 20 countries, the overall risks decline may be contributed by the more comprehensive regulatory system and more rational investment decision.
 
-![T6](/commercial/T6.jpg)
+![T6](/commercial/T6.png)
 
 # 6.  Conclusions
 
