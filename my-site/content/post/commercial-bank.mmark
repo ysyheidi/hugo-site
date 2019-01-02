@@ -1,21 +1,16 @@
 ---
-title: "Commercial Bank Competition and Risk
---Empirical study on 20 non-OECD countries"
+title: "Commercial Bank Competition and Risk"
 thumbnailImagePosition: left
 thumbnailImage: images/commercial.jpeg
 metaAlignment: center
 coverMeta: out
-date: 2018-11-13
-categories:
-- tranquilpeak
-- features
+date: 2018-12-13
 tags:
-- cover image
+- bank
+- risk
 ---
-It is a hotspot for economists to discuss and reflect the relationship between risks and competition. Till now there is no consensus among researchers. With the unbalanced panel data of all commercial banks in 20 non-OECD countries over 2000-2014, the article tried to figure out the relationship between competition and risk. Time variant Competition was measured by the Panzar-Rosse H statistics and risk was measured by rolling Z-scores. In the final regression, other macroeconomic index and bank specific factors were considered. Results found that banks` risks level would increase with the increase of market competition while a relatively larger bank would be less impacted by competition.
-
+This article tried to figure out the relationship between competition and risk, with time variant Competition measured by the Panzar-Rosse H statistics and risk measured by rolling Z-scores
 <!--more-->
-#  Commercial Bank Competition and Risk: Empirical study on 20 non-OECD countries
 
 # Abstract
 It is a hotspot for economists to discuss and reflect the relationship between risks and competition. Till now there is no consensus among researchers. With the unbalanced panel data of all commercial banks in 20 non-OECD countries over 2000-2014, the article tried to figure out the relationship between competition and risk. Time variant Competition was measured by the Panzar-Rosse H statistics and risk was measured by rolling Z-scores. In the final regression, other macroeconomic index and bank specific factors were considered. Results found that banks` risks level would increase with the increase of market competition while a relatively larger bank would be less impacted by competition.
@@ -279,7 +274,7 @@ We also find that macro-economic condition also imposes significant effects on b
 
 The coefficients of years show a significant decreasing trend on risk level, which is in line with the trend showed in the Graph 1. In these 20 countries, the overall risks decline may be contributed by the more comprehensive regulatory system and more rational investment decision.
 
-![T6](T6.jpg)
+![T6](/commercial/T6.jpg)
 
 # 6.  Conclusions
 

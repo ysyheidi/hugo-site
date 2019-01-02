@@ -1,19 +1,6 @@
 ---
 title: "Hello, Sloan"
 date: 2018-12-31
-categories:
-- tranquilpeak
-- releases
-tags:
-- hexo theme
-- responsive
-- gravatar
-- disqus
-- google analytics
-keywords:
-- disqus
-- google
-- gravatar
 autoThumbnailImage: false
 thumbnailImagePosition: "top"
 thumbnailImage: /images/sloan.png

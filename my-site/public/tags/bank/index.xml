@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bank on Siyao(Heidi) Yuan</title>
+    <link>https://ysyheidi.github.io/tags/bank/</link>
+    <description>Recent content in Bank on Siyao(Heidi) Yuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ysyheidi.github.io/tags/bank/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Commercial Bank Competition and Risk</title>
+      <link>https://ysyheidi.github.io/2018/12/commercial-bank-competition-and-risk/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ysyheidi.github.io/2018/12/commercial-bank-competition-and-risk/</guid>
+      <description>&lt;p&gt;This article tried to figure out the relationship between competition and risk, with time variant Competition measured by the Panzar-Rosse H statistics and risk measured by rolling Z-scores
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

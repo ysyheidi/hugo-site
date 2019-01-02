@@ -1,20 +1,15 @@
 ---
-title: "Payout Policy Research of Kweichow Maotai Co., Ltd"
+title: "Payout Policy Research of Kweichow Maotai"
 thumbnailImagePosition: left
 thumbnailImage: images/payout.jpeg
 metaAlignment: center
 coverMeta: out
-date: 2018-12-21
-categories:
-- tranquilpeak
-- features
+date: 2018-11-21
 tags:
-- cover image
+- payout
 ---
-This paper intends to research into the chosen company-- Kweichow Maotai Co., Ltd about its characteristics which entitle it to be the leading firm in the white spirit industry within China. Based its general conditions, this paper mainly focus on its capital structure with very leverage ratio and very high liquidity ratio of debt and asset, as well as its payout policy which returns relatively small amount of cash compared to its price back to the investors. Simultaneously we also take the interest conflicts and the competitive scenario with other rivals into consideration. It can be concluded that the financial response of its leverage level and dividend policy is not significant. While the major suggestions given from this paper contend that it should raise more debt when faced with worthwhile investing projects and should increase the dividend yield ratio for the feedback of its investors, which can also reduce its excess cash at hand.
-
+Capital structure research about the impact of equity volatility on a company’s bond credit spread
 <!--more-->
-#  Payout Policy Research of Kweichow Maotai Co., Ltd
 
 **Abstract**
 
@@ -98,7 +93,7 @@ After 2008, both the growth rate of net profit and growth rate of sales revenue 
 
 **3.2.1. Liquidity of debt**
 
-![F4](payout/F4.png)
+![F4](/payout/F4.png)
 
 Here’s the graph describing the current liability track of KWEICHOW MAOTAI CO.LTD. The general feature is obvious: the current liability ratio is extremely high. There’s a period of time where the ratio even equals 1.
 
@@ -110,7 +105,7 @@ As a consequence, this industry has a common feature: it bears a comparatively h
 
 **3.2.2. Liquidity of assets**
 
-![F5](payout/F5.png)
+![F5](/payout/F5.png)
 
 This’s the graph showing the current assets ratio It’s easy to see that the current assets ratio is also high in this industry. Although in most cases a high current assets ratio usually presents a bad impact on investing activities, and thus can reduce the profit-generating ability, white spirit industry is an exception. Since inventory occupies a large portion of its assets, and there are value added as the storage time becomes longer, high current assets ratio seems to be reasonable for this field.
 
@@ -130,11 +125,11 @@ Generally speaking, a high current assets ratio is to some degree quite good for
 
 MaoTai, known as the National Representative Spirit , is a sign of national culture. Moreover，in the field of business expansion, it is another symbol. After going on the board in Shanghai Stock Exchange Market in 2001. The company enjoyed a rush climbing not only in the stock price but also the in the profit and asset scale:
 
-![F6](payout/F6.png)
+![F6](/payout/F6.png)
 
 Graph 3.4 stands for operating profit ratio, which measures the efficiency of firm’s operation as well as the profitability. The dotted line shows the trend of profitability development from 2001 to 2013, which corresponds with what we can analyze from Graph 3.5: Maotai enjoys a nearly six times expansion, a dramatic achievement.
 
-![F7](payout/F7.png)
+![F7](/payout/F7.png)
 
 According to these two graphs, Maotai is still under high-rate development. However, MaoTai owes huge cash with few long-term debt. This inhibits itself from benefiting from one advantage of debt financing-tax shield. Next part illustrates the expected better capital structure.
 
@@ -160,11 +155,11 @@ iii) Cash for dividend( theoritically)=net cash flow - Retain cash( theoreticall
 
 After observing such high net cash flow, one critical issue for Maotai is to manage efficiently. Based on MM theory, the commonest way is to raise long-term debt, which a higher firm value and increases the net income immediately when tax shield has a higher value than the interest. What’s more, it doesn’t need to face the problem of uncertainty of operating income, which means this company has the ability to issue debt. After calculating cash-to-asset ratio, we can set the D/A ratio because the firm can pay it off each year, approximating to pay short-term debt. If there are some worthwhile projects, it is supposed to invest in the potential project with more debts.
 
-![F8](payout/F8.png)
+![F8](/payout/F8.png)
 
 (3) As a result, after increasing the dividend while decreasing the cash and raising long-term debt the ROE will be increased in reality and can be proved as follows.
 
-![F9](payout/F9.png)
+![F9](/payout/F9.png)
 
 **3.3.3 Summary**
 
@@ -184,7 +179,7 @@ It is necessary to point out that a lack of suitable investment opportunity is a
 
 However, Maotai’s stockholders are not as satisfied as the common expectation. The first reason is its low dividend yield. Although Maotai can be regarded as the bellwether of cash dividend in the A share market, its high price, mostly over 100 Yuan, makes the ratio of dividend to price low. In fact, the dividend yield ratio of Maotai was lower than the rate of one-year fixed deposit from 2008 to 2013 (shown in Table 4.1). In addition, compared with the annual turnover and undistributed profits, Maotai is able to improve its dividends.
 
-![F10](payout/F10.png)
+![F10](/payout/F10.png)
 
 Maotai seldom adopts seasoned stock offering. Due to its bright prospects, Maotai has no motivation for ownership dilution, which may decrease the interest of its current stockholders. In order to maintain the high stock price, the company is not interested in other returning methods.
 
@@ -192,7 +187,7 @@ As for repurchasing stocks, Maotai always hesitates on it, although the company 
 
 ## 4.2 Impact of dividend on stock price**
 
-![F11](payout/F11.png)
+![F11](/payout/F11.png)
 
 The Graph 4.2 above illustrates the stock price of 5 different companies in white spirit industry since 2005 and Graph 4.3 shows the change of dividend yield ratio of Maotai. In general, Maotai’s stock price has more fluctuation than other 4 firms.
 
@@ -210,7 +205,7 @@ $$
 Retention_{} Ration=\frac{After_{} tax_{} profits-retained_{} earnings}{After_{} tax_{} profits} 
 $$
 
-![F12](payout/F12.png)
+![F12](/payout/F12.png)
 
 When we take Wuliangye as a comparison, the graph 3.3 suggests that despite the Maotai distributed a large amount of cash dividends every year, the retention ratio is actually more than a half. Both of these two companies are the leaders in the white spirit industry and nearly share the same high-end market. However, the range of ratio of Maotai is relatively stable, ensuring that the stockholders can receive a certain amount of cash dividends every year.
 
@@ -226,13 +221,13 @@ The average return on asset in white spirit industry keeps increasing since 2008
 
 No matter company size or profitability, it is obvious that Maotai is the leading sheep in the white spirit industry.
 
-![F13](payout/F13.png)
+![F13](/payout/F13.png)
 
 **4.4.2 Cash accumulation**
 
 When it comes to cash flow accumulation, Mao-tai’s leading position is weakened. Here we use net profit cash coverage (NPCC), which is calculated from cash flow of the year over net profit, to measure a company’s freedom of using cash. Companies benefit from higher NPCC in that they have less financial distress, better ability to receive cash from sale and reduce cost. The NPCC of whole white spirit industry shows a clearly declining trend. According to the graph, we conclude that even if Maotao has large cash balance, the percent of sale which it can receive soon was smaller than Wuliangye. It might be because Maotai rely more on credit sale from government and high-end business conferences. However, in 2013, Maotai still showed strong stress resistance when the industry recessed.
 
-![F14](payout/F14.png)
+![F14](/payout/F14.png)
 
 **4.4.3 Dividend policy**
 
@@ -244,9 +239,9 @@ Firstly, Mao-tai pays the most cash dividends in white spirit industry every yea
 
 Secondly, when we look at the dividend yield ratios, we can find out that the dividend yield ratio of Maotai is actually lower than Wuliangye and Luzhou-Laijiao, and Maotai’s P/E ratio is higher than the two companies mainly due to its high stock price. Some people in the market argue that Mao-tai should pay more dividends given that its dividend is even lower than the base deposit interest rate in the bank.
 
-![F15](payout/F15.png)
+![F15](/payout/F15.png)
 
-![F16](payout/F16.png)
+![F16](/payout/F16.png)
 
 # 5. Conclusions
 
@@ -263,7 +258,6 @@ According to our analysis, Maotai should appropriately increase leverage, distri
 
 # References
 
-<![endif]-->
 
 [1]. Liu Hanmin, Liu Jin, ‘Capital structure, firm management and SOE reform’, Economic Research, February 2002
 

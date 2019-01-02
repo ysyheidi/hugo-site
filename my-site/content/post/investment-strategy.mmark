@@ -1,31 +1,16 @@
 ---
-title: "Investment Strategy in China’s Financial Market"
+title: "Investment Strategy in China’s Equity Market"
 thumbnailImagePosition: left
 thumbnailImage: images/investment.jpeg
 metaAlignment: center
 coverMeta: out
-date: 2018-10-13
-categories:
-- tranquilpeak
-- features
+date: 2018-12-01
 tags:
-- cover image
+- investment strategy
 ---
-
-We decided to choose individual investors. Because we think it’s more practical and feasible for us who are short of real investment experience.
-
-Our client is a middle-aged woman with $500,000 (RMB 3,100,000) to invest. She is relatively a risk lover. With Chinese stock market booming, she wants to invest in the stock market. Her expected return is 15% in one year and the maximum loss she can afford is 20%. Our target is to maximize the profit while controlling the risk by diversifying the investment.
-
-Since we decided to construct a portfolio with high return and high risk, we choose to invest 80% in the stock market. Meanwhile, we use the investment in bond market (20%) to reduce the risk to some degree.
-
-For stock investment, we first choose four stable and promising industries according to Chinese government policies, which are construction, finance, environmental protection and alternative energy. Then we construct a scoring system according to the method of Analytic Hierarchy Process (AHP) as well as the growth and risk factors. This is a system that will score the stocks based on the weight of each factor, and then at the beginning of each quarter, we will buy and hold the portfolio with highest scores. Each quarter the portfolio will be adjusted in terms of new scores at each quarter. We use this system to pick 5 stocks with highest scores in each of the four industries to construct our stock portfolio. To determine the weights of the selected 20 stocks, we use mean-variance optimization method. In addition, we choose Chinese one year T-bills as our risk-free asset.
-
-In the evaluation part, we find our whole portfolio with 19.446% return in the two months which beat the benchmark, but when compared to individual industry stock portfolio, our stock investment has inferior return.
+Stock selection strategy on Analytic Hierarchy Process base on multiple equity fundamental factors
 
 <!--more-->
-#  Investment Strategy in China’s Financial Market
-
-
 # I. Introduction
 
 We decided to choose individual investors. Because we think it’s more practical and feasible for us who are short of real investment experience.
@@ -76,13 +61,14 @@ The Figure 2 and Figure 3 list the factors within two different classes for us t
 ![F3](/investment/F3.png)
 
 In this report we have proved the plausibility of the comparative matrixes in the Appendix II and we can construct our own scoring mechanism to attribute the points to each stock using the factors chosen above:
+
 $$
 score = \beta_1 A_1 + \beta_2 A_2 + 
 \beta_3 A_3 + 
 \beta_4 A_4 + 
 \beta_5 B_1 + 
 \beta_6 B_2 + 
-\beta_7 B_3 + 
+\beta_7 B_3
 $$
 
 $$
@@ -104,19 +90,18 @@ In this step we utilize the seasonal data of each stock with respect to its corr
 When we merge all the data with their 7 respective factors there are 1332 stocks left after ruling out the ones with missing observations. And the following formula gives the scores of every stick in every quarter.
 
 $$
-score=0.3481PE+0.1332ROE+0.1332net profit-0.0521value+0.2123rise+0.0861volatility+0.0349turnover
+score=0.3481PE+0.1332ROE+0.1332net profit-0.0521value
+$$
+
+$$
++0.2123rise+0.0861volatility+0.0349turnover
 $$
 
 **Step 3. Construct the portfolio**
 
 The scores of all the stocks in a certain quarter help up rank the stocks from high to low scored with 45 groups. We attribute the numbers from 1-45 to the stocks within the range of score of that season. In this way we can get 45 portfolios every quarter with approximately 30 stocks in one portfolio scored from high to low. Then hold the stocks in Portfolio 45 which contains the stocks with the highest scores in that season for the next season. In general this process can be expressed in the chart below.
 
-```mermaid
-graph LR
-A[Data of Factors] --> B[Score of Stocks]
-B --> C(Select highest-scored stocks)
-
-```
+![graphLR](/investment/graphlr.png)
 
 With this system of selecting the stock portfolios, we change the portfolio every quarter based on the observations of the previous quarter to calculate their scores and thus constructing the new portfolio containing possible different stocks prevailing in the next period.
 
@@ -152,7 +137,9 @@ First, we use last 4 months daily return data of each stock to estimate the expe
 $$
 U=  U(\mu_p, \sigma_p) = \mu_p-0.5A\sigma_p^2=\mu_p-A\sigma_p^2
 $$
+
 where
+
 $$
 \mu_p= \sum_{i=1}^{n}\sum_{j=1}^{n} w_i w_j\mu_{i,j},
 \sigma_p^2= \sum_{i=1}^{n} w_i \mu_i,
@@ -223,30 +210,16 @@ After we add in a bond chosen, the whole investment portfolio has a total 19.446
 
 4. Shao Qingfang. “Integrated evaluation of entrepreneur financial statements based on method of Analytical Hierarchy Process.” _Financial Report and Analysis_ 9 (2010): 123-125.
 
-5. Baidu Baike.”One Belt And One Road”
+5. [Baidu Baike.”One Belt And One Road”](http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK) (Accessed May.31, 2015)
 
-[http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK](http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK) (Accessed May.31, 2015)
+6. [Sina Finance.” The beneficial companies from OBAOR”](http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK) (Accessed May.31, 2015)
 
-6. Sina Finance.” The beneficial companies from OBAOR”
+7. [Huagu Finance.”Construction: the State Council passed the management of PPP”](http://stock.huagu.com/sc/hyfx/1504/1080564.html) (Accessed May.31, 2015)
 
-[http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK](http://baike.baidu.com/link?url=JS0ZlvhZSnGm2ClIeycQyz174f73Nz9ziRplm6qyvPF7s0sGLxvhD5DvsFn0g8hemy3u26VM86ATOSuHZB9XjK) (Accessed May.31, 2015)
+8. [Baidu Baike.”Water Pollution Control Action Plan”](http://baike.baidu.com/link?url=T9yKUIc93tnNkAz6h2gQiw_S14x6RDXdI-aTzODJfD5l_JNGSnsUHbNMy2smKufRo2W-XPiHvA_tGzPSWm9Dqq) (Accessed May.31, 2015)
 
-7. Huagu Finance.”Construction: the State Council passed the management of PPP”
+9. [ Huagu Finance.” New energy industry: the effect of multifactor”](http://stock.huagu.com/sc/hyfx/1503/1069687.html) (Accessed May.31, 2015)
 
-[http://stock.huagu.com/sc/hyfx/1504/1080564.html](http://stock.huagu.com/sc/hyfx/1504/1080564.html) (Accessed May.31, 2015)
+10. [China Power.” The new quota system of new energy will be released”](http://www.chinapower.com.cn/newsarticle/1221/new1221123.asp) (Accessed May.31, 2015)
 
-8. Baidu Baike.”Water Pollution Control Action Plan”
-
-[http://baike.baidu.com/link?url=T9yKUIc93tnNkAz6h2gQiw_S14x6RDXdI-aTzODJfD5l_JNGSnsUHbNMy2smKufRo2W-XPiHvA_tGzPSWm9Dqq](http://baike.baidu.com/link?url=T9yKUIc93tnNkAz6h2gQiw_S14x6RDXdI-aTzODJfD5l_JNGSnsUHbNMy2smKufRo2W-XPiHvA_tGzPSWm9Dqq) (Accessed May.31, 2015)
-
-9. Huagu Finance.” New energy industry: the effect of multifactor”
-
-[http://stock.huagu.com/sc/hyfx/1503/1069687.html](http://stock.huagu.com/sc/hyfx/1503/1069687.html) (Accessed May.31, 2015)
-
-10. China Power.” The new quota system of new energy will be released”
-
-[http://www.chinapower.com.cn/newsarticle/1221/new1221123.asp](http://www.chinapower.com.cn/newsarticle/1221/new1221123.asp) (Accessed May.31, 2015)
-
-11. Huagu Finance. “Banks: Optimistic about the international finance service in OBAOR”
-
-[http://stock.huagu.com/sc/hyfx/1503/1059389.html](http://stock.huagu.com/sc/hyfx/1503/1059389.html) (Accessed May.31, 2015)
+11. [Huagu Finance. “Banks: Optimistic about the international finance service in OBAOR”](http://stock.huagu.com/sc/hyfx/1503/1059389.html) (Accessed May.31, 2015)

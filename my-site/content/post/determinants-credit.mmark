@@ -1,21 +1,15 @@
 ---
-title: "Determinants of Credit Spread on Corporate Bonds: Based on Observations of China’s Market"
+title: "Determinants of Credit Spread on Corporate Bonds"
 thumbnailImagePosition: left
 thumbnailImage: images/determinants.jpeg
 metaAlignment: center
 coverMeta: out
-date: 2018-12-13
-categories:
-- tranquilpeak
-- features
+date: 2018-11-17
 tags:
-- cover image
+- bond
 ---
-Theoretically, the fair value of a bond is the present value of the stream of cash flows that are expected to generate. Hence, the value of the bond is obtained by discounting the bond’s expected cash flow to the present using an appropriate discount rate.
-
+Capital structure research about the impact of equity volatility on a company’s bond credit spread
 <!--more-->
-
-# Determinants of Credit Spread on Corporate Bonds: Based on Observations of China’s Market
 
 # 1. Introduction
 ## 1.1 Credit Spread Explanation
@@ -28,6 +22,7 @@ $$
 Therefore, in practice, pricing bond is equivalent to pricing this discount rate, namely the yield. This yield consists of two parts, one is the risk-free yield of the market, and the other is the credit spread, difference in yield between different securities due to different credit quality. So, to be further, pricing the corporate bonds we need to measure and quantify the credit spread. Under the Efficient Markets Hypothesis, we can assume that the credit spread is approximately equal to the default spread which is mainly measured by the default risk.
 
 In this thesis we define the credit spread of a corporate bond as:
+
 $$
 Credit\ Spread\mathrm{=}YTM\mathrm{-}R_f (Eq.1.2)
 $$
@@ -62,7 +57,7 @@ Circulated stock value of the company, denoted as $Csv$. The reason of taking va
 ## 2.2 Model Construction
 The final regression model in our analysis is presented as follows:
 
-$YTM\mathrm{-}R_f={\beta }_1{std}_{abr}+{\beta }_2dar+{\beta }_3ROE+{\beta }_4duration+{\beta }_5Csv+u$ (Eq.2.1)
+$$YTM\mathrm{-}R_f={\beta }_1{std}_{abr}+{\beta }_2dar+{\beta }_3ROE+{\beta }_4duration+{\beta }_5Csv+u$$ (Eq.2.1)
 
 The estimation of the parameters with their significance will be illustrated in the following part.
 
@@ -78,7 +73,8 @@ We use OLS method to estimate the parameters in the regression model and results
 
 ![T3.2](/determinants/T3.2.png)
 
-It can be seen from the table that$\mathrm{\ }{std}_{abr}$, $dar$, ROE and $duration$ are all statistically significant at 10% level, which means they play important roles in explaining the changes in dependent variable-credit spread. According to the regression coefficients, it can be concluded that credit spread of bonds increases with$\mathrm{\ }{std}_{abr}$, $dar$, ROE  and duration increase, and decreases with ROE   rises, which corresponds to general financial theory. Among them, the fluctuation in the stock market has significant positive effect on the credit risk. The explanation lies in the fact that a higher fluctuation of abnormal returns motivates the investors demanding a relatively higher risk premium, which is reflected by the rise in the dependent variable. Besides, Csv is not statistically significant unexpectedly. This can be contributed to the fact that the circulated value as the production of current stocks outstanding and price per share cannot directly have impacts on the credit risk of a certain firm. A large sized firm may also go through a significant financial fluctuation which raises its default risk. Therefore its effect on the dependent variable is vague and insignificant.
+It can be seen from the table that
+$\mathrm{\ }{std}\_{abr}$ , $dar$, ROE and $duration$ are all statistically significant at 10% level, which means they play important roles in explaining the changes in dependent variable-credit spread. According to the regression coefficients, it can be concluded that credit spread of bonds increases with$\mathrm{\ }{std}_{abr}$, $dar$, ROE  and duration increase, and decreases with ROE   rises, which corresponds to general financial theory. Among them, the fluctuation in the stock market has significant positive effect on the credit risk. The explanation lies in the fact that a higher fluctuation of abnormal returns motivates the investors demanding a relatively higher risk premium, which is reflected by the rise in the dependent variable. Besides, Csv is not statistically significant unexpectedly. This can be contributed to the fact that the circulated value as the production of current stocks outstanding and price per share cannot directly have impacts on the credit risk of a certain firm. A large sized firm may also go through a significant financial fluctuation which raises its default risk. Therefore its effect on the dependent variable is vague and insignificant.
 ## 3.3 Out-sample test results
 
 We use 90 observations to process in-sample regression and with 9 observations for out-of-sample prediction. It can be seen from the test results, showed in the Figure 3.3, that the prediction error is larger than one percentage in terms of absolute value on average. The result is not satisfactory but still can be accepted since we have not taken other possible important factors into account and the number of observation is limited.
