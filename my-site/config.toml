@@ -76,14 +76,14 @@ canonifyurls = true
 [[menu.main]]
   weight = 4
   # identifier = "github"
-  name = "Tags"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
-  url = "/tags"
+  name = "Github"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/ysyheidi"
 [[menu.links]]
   weight = 3
-  # identifier = "linkedin"
+  # identifier = "email"
   name = "Email"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
   url = "mailto:ysyheidi@outlook.com"
 
 
